@@ -4,6 +4,7 @@ The program executes the FFT kernel across different FFT sizes, and
 using different numbers of threads each time.
 
 The performance measurements are reported on the UART output.
+The program prints "Done!" at the end if the execution completed successfully.
 
 The maximum FFT size that is tested is set by the `make`
 variable TABLE_SIZE. By default this is set to 10, which means
